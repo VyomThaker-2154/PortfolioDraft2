@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Vyom.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#BEGINNING" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#About Me" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#CONTACT" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION BEGINNING -->
+    <section id="BEGINNING" class="BEGINNING">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Vyom Thaker</h1>
+            <h2>Software Engineer - UI/UX Expert</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/vyom.thaker.90?mibextid=LQQJ4d"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Vyom_Thaker_45"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/vyom._.45?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vyom-thaker-75abaa25a"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/VyomThaker-2154"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT ME -->
+    <section id="About Me" class="sobremi">
+        <div class="contenido-SECTION">
+            <h2>About Me</h2>
+            <p><span></span><br>
+                
+                🚀 Hi, I'm Vyom, a blockchain developer passionate about decentralization. With expertise in HTML, CSS , Javascript ,Python ,MYSQL I turn ideas into reality, specializing in smart contracts, dApp development, and protocol optimization. My commitment to staying at the forefront of blockchain tech, combined with a collaborative spirit, sets me apart. Let's connect and explore how we can shape the future of decentralized solutions together. 🌐💻 #BlockchainDeveloper #SmartContracts #Decentralization</p>
+
+            <div class="fila">
+                <!-- Personal Data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            21-05-2004
+                        </li>
+                        <li>
+                            <strong>Contact</strong>
+                            99307 20724
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            vyomthaker2@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Mumbai, India
+                        </li>
+                        <li>
+                            <strong>Currently</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Games</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Travel</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Hike</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Books</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Cars</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Photos</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-SECTION">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Video Editing</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creative</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-SECTION">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>B.Tech</h4>
+                        <span class="casa">KJSIT</span>
+                        <span class="fecha">2022 - 2026</span>
+                        <p>During my B.Tech in I.T. college, I am immersing myself in cutting-edge technologies, honing technical skills and collaborating on diverse projects. Adept at problem-solving, I  am leveraging my academic journey to cultivate a strong foundation for a successful professional career.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Junior College </h4>
+                        <span class="casa"> Narayana E-Techno</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>During my time at junior college, I honed critical thinking, communication, and teamwork skills. A dedicated and proactive student, I engaged in rigorous coursework, demonstrating a commitment to academic excellence. My time in junior college cultivated a strong foundation for future professional endeavors.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> Secondary Schooling</h4>
+                        <span class="casa">S.V.P.V</span>
+                        <span class="fecha">2016 - 2020</span>
+                        <p>In secondary school, I navigated diverse subjects, developing a keen interest in science and literature. Engaging in extracurriculars, I cultivated leadership skills. Passionate, adaptable, and curious, I thrive in collaborative environments, embodying a commitment to continuous learning and growth.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experience</h3>
+                    <div class="item der">
+                        <h4>Marketing Expert</h4>
+                        <span class="casa">Google Developer Students Club</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>"Dynamic marketing professional with a solid track record in crafting compelling campaigns. Proven ability to blend creativity with strategy for impactful brand elevation. Let's collaborate to bring your brand to new heights."</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>PR Team</h4>
+                        <span class="casa">Students Council</span>
+                        <span class="fecha">2022 - 2026</span>
+                        <p>Passionate PR professional with a flair for storytelling and a proven track record of crafting compelling narratives. A strategic thinker adept at building and maintaining strong media relationships, driving brand visibility, and delivering impactful communication strategies.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Design Team</h4>
+                        <span class="casa">Google Developer Students Club</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Passionate and creative, I bring a unique blend of artistic flair and strategic thinking to the design team. With a keen eye for detail and a commitment to innovation, I thrive in turning ideas into visually stunning and impactful designs.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-SECTION">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="CONTACT" class="CONTACT">
+        <div class="contenido-SECTION">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Contact">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mumbai,Maharashtra
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contact: 99307 20724
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: vyomthaker21@gmail.com.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#BEGINNING" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
